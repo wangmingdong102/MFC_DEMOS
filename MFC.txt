@@ -5,6 +5,9 @@ gcc test.c
 ./a.exe 
 
 ###
+C++教程：http://www.jizhuomi.com/software/129.html
+MFC教程：http://www.jizhuomi.com/software/257.html
+
 如何打印log:通过TRACE printf函数
 如何设置log输出：
 参考：https://blog.csdn.net/wang15061955806/article/details/70228075
