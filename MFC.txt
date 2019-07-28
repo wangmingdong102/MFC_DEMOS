@@ -1,0 +1,49 @@
+###
+cygwin
+cd /tmp/
+gcc test.c 
+./a.exe 
+
+###
+如何打印log:通过TRACE printf函数
+如何设置log输出：
+参考：https://blog.csdn.net/wang15061955806/article/details/70228075
+https://blog.csdn.net/PZ0605/article/details/93303786
+
+如何输出log到文件？
+图标修改修改 ：替换默认的图标，显示在多处：将res下的MFCApplication1.ico替换为自定义的图标
+修改程序左上角图标（resource.h中添加id;*.rc中添加ID和.ico文件的对应关闭;*.cpp中设置图片：
+加载图标：m_hIcon = AfxGetApp()->LoadIcon(IDR_NIUNIU_TOOLS_ICON);
+设置图标：SetIcon(m_hIcon, TRUE);	）
+
+应用名称如何修改：继承initdialog，调用setwindowtext来设置
+参考：https://wenku.baidu.com/view/2a8c2a79998fcc22bdd10d44.html
+关于菜单如何添加显示：自动添加的，在rc文件中修改字串内容；鼠标右击弹出菜单可定点击进入关于菜单；
+
+串口如何操作？
+https://blog.csdn.net/qq_25241325/article/details/80055096
+https://github.com/itas109/CSerialPort
+
+USB口如何操作？
+
+多串口或USB口如何操作？
+
+文件如何操作 txt excel ？
+excel文件的导入和导出？
+数据库操作？
+表格如何操作？
+
+.rc显示“在另一个编辑器中打开”：（解决方法：把MFC的source.h文件打开后，再把它关掉就行了。）
+
+###
+Win32控制台应用程序
+MFC应用程序
+Win32项目
+空项目
+生成文件项目
+
+###
+	UpdateData(TRUE);
+	nn_param_result = nn_param_1 + nn_param_2;
+	UpdateData(FALSE);
+	
