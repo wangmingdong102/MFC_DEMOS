@@ -1,0 +1,17 @@
+https://blog.csdn.net/s0603251/article/details/6064713
+
+首先，获取当前tick时间：
+void kal_get_time(kal_uint32* ticks_ptr);
+
+ 
+其次，将tick信息转换成milli_second信息：
+kal_uint32 kal_ticks_to_milli_secs(kal_uint32 ticks);
+其转换关系：1tick = 4.615ms
+ 
+测试用例：
+U32 mmi_test_get_current_time(void){    kal_uint32 ticks = 0;    kal_uint32 time = 0;
+    kal_get_time(&ticks);    time = kal_ticks_to_milli_secs(ticks);
+kal_prompt_trace(MOD_WAP, "mmi_test_get_current_time = %d", time);    return time;}
+--------------------- 
+版权声明：本文为CSDN博主「s0603251」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/s0603251/article/details/6064713
