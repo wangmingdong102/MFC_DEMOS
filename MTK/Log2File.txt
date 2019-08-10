@@ -1,0 +1,62 @@
+https://blog.csdn.net/skevi/article/details/83807562
+
+#include "FileMgrGProt.h"
+void mmi_write_buffer_to_file(char *buff, unsigned int buffSize, char *fileName)
+{
+    S32 ret = 0;
+    U32 rwLen = 0;
+    S8 ascii_path[32];
+    S8 ucs2_path[64];
+    FS_HANDLE fileHandle;
+    sprintf(ascii_path, "%c:\\%s", MMI_CARD_DRV, fileName);
+    mmi_asc_to_ucs2(ucs2_path, ascii_path);
+   
+    ret = FS_GetAttributes((const WCHAR *)ucs2_path);
+    if(ret < FS_NO_ERROR)
+    {
+        fileHandle = FS_Open((const WCHAR *)ucs2_path, FS_CREATE_ALWAYS|FS_READ_WRITE);
+    }
+    else
+    {
+        fileHandle = FS_Open((const WCHAR *)ucs2_path, FS_READ_WRITE);
+    }
+    kal_prompt_trace(MOD_TST, "mmi_write_buffer_to_file, fileHandle=%d", fileHandle);
+    ASSERT(fileHandle>=FS_NO_ERROR);
+ 
+    ret = FS_Seek(fileHandle, 0, FS_FILE_END);
+    ret = FS_Write(fileHandle, buff, buffSize, &rwLen);
+    FS_Close(fileHandle);
+ 
+    ASSERT(rwLen==buffSize);
+    ASSERT(ret >= FS_NO_ERROR);
+ 
+}
+
+ 在使用的时候先定义一个buffer
+
+
+例如：
+
+
+char filebuff[64] = {0}; //大小可以根据需要来定
+memset(filebuff, 0, 64);
+sprintf(filebuff, "error code\r\n");
+mmi_write_buffer_to_file(filebuff, strlen(filebuff), "error.txt");
+ 
+ 
+这样是输出error code 到文件当中
+ 
+
+
+memset(filebuff, 0, 64);
+sprintf(filebuff, "fN=%s\r\n", fileName);
+mmi_write_buffer_to_file(filebuff, strlen(filebuff), "error.txt");
+ 这样是输出fileName 到文件当中memset(filebuff, 0, 64);
+sprintf(filebuff, "XXXXX.c, line %d\r\n", __LINE__);
+mmi_write_buffer_to_file(filebuff, strlen(filebuff), "error.txt");
+ 这样是输出当前文件的行号到文件中
+ 
+这样很方便使用，又不用担心catcher引起问题.
+--------------------- 
+版权声明：本文为CSDN博主「skevi」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/skevi/article/details/83807562
