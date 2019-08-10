@@ -1,2 +1,19 @@
 https://wenku.baidu.com/view/cd9711addd3383c4bb4cd2fc.html
 
+数组长度越界
+数据类型越界
+0作为/或%
+文件句柄超出
+内存泄露
+History栈爆掉
+MMI Queue爆掉
+MMI TASK栈内存爆掉
+
+关于STM32 使用sprintf 死机问题
+在使用 sprintf 函数时遇到的造成死机的两种原因：
+1、 指针未声明内存
+char *p;
+sprintf(p,"%d,%d,%f",1,1,2.1);
+解决方法：对指针申请内存，或定义成数组类型。
+2、打印float/double 类型数据。
+解决方法：修改为int类型打印。
