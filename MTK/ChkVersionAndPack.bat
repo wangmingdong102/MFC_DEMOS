@@ -8,6 +8,8 @@ for /f  "tokens=1,2 delims=="  %%i in (version.txt) do (
 )
 :exit1
 set "version=%version: =%"
+set "version=%version:;=%"
+set "version=%version:"=%"
 echo %version%
 
 for /f  "tokens=1,2 delims=="  %%i in (version.txt) do (
