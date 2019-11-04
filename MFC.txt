@@ -56,3 +56,6 @@ Win32项目
 	nn_param_result = nn_param_1 + nn_param_2;
 	UpdateData(FALSE);
 	
+###
+系统错误
+找不到msvcrtd.dll 	

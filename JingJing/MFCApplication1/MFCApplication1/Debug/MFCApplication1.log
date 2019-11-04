@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/11/5 0:03:06。
+     1>项目“D:\wangmingdong\VSProjects\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         MFCApplication1.vcxproj -> D:\wangmingdong\VSProjects\MFCApplication1\Debug\MFCApplication1.exe
+       PostBuildEvent:
+         editbin /SUBSYSTEM:CONSOLE D:\wangmingdong\VSProjects\MFCApplication1\Debug\MFCApplication1.exe
+         :VCEnd
+         Microsoft (R) COFF/PE Editor Version 14.00.23026.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+     1>已完成生成项目“D:\wangmingdong\VSProjects\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.82
