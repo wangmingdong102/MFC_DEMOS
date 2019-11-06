@@ -1,6 +1,52 @@
-﻿生成启动时间为 2019/11/5 0:03:06。
+﻿生成启动时间为 2019/11/7 1:10:17。
      1>项目“D:\wangmingdong\VSProjects\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj”在节点 2 上(Build 个目标)。
-     1>Link:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\MFCApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MFCApplication1Dlg.cpp
+         MFCApplication1Dlg.cpp
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(310): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(316): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(322): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(328): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(334): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(334): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(334): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(346): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(346): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(346): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(350): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(350): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(350): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(354): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(354): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(354): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(358): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(358): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(358): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(362): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(362): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(362): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(366): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(366): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(366): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(372): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(372): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(372): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(376): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(376): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(376): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(379): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(379): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(379): warning C4129: “)”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(383): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(386): warning C4129: “/”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(386): warning C4129: “(”: 不可识别的字符转义序列
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\mfcapplication1dlg.cpp(386): warning C4129: “)”: 不可识别的字符转义序列
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\wangmingdong\VSProjects\MFCApplication1\Debug\MFCApplication1.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"D:\wangmingdong\VSProjects\MFCApplication1\Debug\MFCApplication1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\wangmingdong\VSProjects\MFCApplication1\Debug\MFCApplication1.lib" /MACHINE:X86 Debug\MFCApplication1.res
+         Debug\MFCApplication1.obj
+         Debug\MFCApplication1Dlg.obj
+         Debug\stdafx.obj
+         LINK : 没有找到 D:\wangmingdong\VSProjects\MFCApplication1\Debug\MFCApplication1.exe 或上一个增量链接没有生成它；正在执行完全链接
          MFCApplication1.vcxproj -> D:\wangmingdong\VSProjects\MFCApplication1\Debug\MFCApplication1.exe
        PostBuildEvent:
          editbin /SUBSYSTEM:CONSOLE D:\wangmingdong\VSProjects\MFCApplication1\Debug\MFCApplication1.exe
@@ -12,4 +58,4 @@
 
 已成功生成。
 
-已用时间 00:00:00.82
+已用时间 00:00:01.58

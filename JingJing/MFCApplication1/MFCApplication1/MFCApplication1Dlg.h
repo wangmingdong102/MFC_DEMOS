@@ -71,4 +71,5 @@ public:
 	
 	afx_msg void OnEnChangeEditDefault();
 	afx_msg void OnBnClickedButtonResult();
+	afx_msg void OnGetMinMaxInfo(MINMAXINFO* lpMMI);
 };
