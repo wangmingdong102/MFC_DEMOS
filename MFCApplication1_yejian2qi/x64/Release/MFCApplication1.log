@@ -1,0 +1,252 @@
+﻿生成启动时间为 2020/1/5 0:53:37。
+     1>项目“D:\wangmingdong\VSProjects\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Release\MFCApplication1.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt BasicExcelVC6.cpp
+         BasicExcelVC6.cpp
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(164): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(165): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(166): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(167): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(168): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(169): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(170): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(171): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(172): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(314): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(341): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(730): warning C4101: “name_2”: 未引用的局部变量
+     1>BasicExcelVC6.cpp(860): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(863): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(864): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(869): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(872): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(873): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(876): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1094): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1106): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1118): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1132): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1142): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1154): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1166): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1192): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1204): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1216): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1258): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1268): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1280): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1293): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1309): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1365): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1376): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1387): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1400): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1410): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1420): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1511): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1550): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1565): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1587): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1588): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1601): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1632): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1638): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1747): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1765): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1786): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1797): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1798): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1867): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(1868): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2015): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(2012): warning C4101: “name_2”: 未引用的局部变量
+     1>BasicExcelVC6.cpp(2232): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2239): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2245): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2251): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2357): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2363): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2368): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2383): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2392): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2397): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2406): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2413): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2416): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2423): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2426): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2567): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2585): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2658): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2661): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2687): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2695): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2717): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2723): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2744): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2763): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2851): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(2995): warning C4309: “初始化”: 截断常量值
+     1>BasicExcelVC6.cpp(3033): warning C4309: “初始化”: 截断常量值
+     1>BasicExcelVC6.cpp(3136): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3137): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3149): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3153): warning C4267: “/=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3154): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3161): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3167): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3319): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3320): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3321): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3335): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3336): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3337): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3400): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3456): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3471): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3595): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3601): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3610): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3614): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3647): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3662): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3744): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3748): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3775): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3788): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3862): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3874): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3900): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3911): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3937): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(3948): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4003): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4009): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4272): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4283): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4330): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4381): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4445): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>BasicExcelVC6.cpp(4476): warning C4244: “*=”: 从“double”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4490): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4492): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4502): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4504): warning C4805: “|=”: 在操作中将类型“int”与类型“bool”混合不安全
+     1>BasicExcelVC6.cpp(4519): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4521): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4665): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+         BasicExcelVC6.cpp(4665): note: consider using '%zd' in the format string
+     1>BasicExcelVC6.cpp(4959): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(4991): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(5032): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(5043): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5086): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>BasicExcelVC6.cpp(5087): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5194): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5232): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5240): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5241): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5270): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5271): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5272): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5286): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5287): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5312): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5313): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5314): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5330): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5331): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5337): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5338): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5350): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5351): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5389): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+     1>BasicExcelVC6.cpp(5390): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Release\MFCApplication1.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt MFCApplication1.cpp MFCApplication1Dlg.cpp
+         MFCApplication1.cpp
+         MFCApplication1Dlg.cpp
+     1>MFCApplication1Dlg.cpp(287): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>MFCApplication1Dlg.cpp(338): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(164): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(165): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(166): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(167): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(168): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(169): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(170): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(171): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\wangmingdong\vsprojects\mfcapplication1\mfcapplication1\BasicExcelVC6.hpp(172): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MFCApplication1Dlg.cpp(388): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+     1>MFCApplication1Dlg.cpp(403): warning C4477: 'printf' : format string '%10d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+         MFCApplication1Dlg.cpp(403): note: consider using '%zd' in the format string
+     1>MFCApplication1Dlg.cpp(406): warning C4477: 'printf' : format string '%10d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+         MFCApplication1Dlg.cpp(406): note: consider using '%zd' in the format string
+     1>MFCApplication1Dlg.cpp(550): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(556): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(562): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(568): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(574): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(574): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(574): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(586): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(586): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(586): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(590): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(590): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(590): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(594): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(594): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(594): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(598): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(598): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(598): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(602): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(602): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(602): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(606): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(606): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(606): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(612): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(612): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(612): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(616): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(616): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(616): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(619): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(619): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(619): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(623): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(627): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(627): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(627): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(632): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(632): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(632): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(637): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(637): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(637): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(642): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(642): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(642): warning C4129: “/”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(647): warning C4129: “(”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(647): warning C4129: “)”: 不可识别的字符转义序列
+     1>MFCApplication1Dlg.cpp(647): warning C4129: “/”: 不可识别的字符转义序列
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\MFCApplication1.res" MFCApplication1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\wangmingdong\VSProjects\MFCApplication1\x64\Release\MFCApplication1.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"D:\wangmingdong\VSProjects\MFCApplication1\x64\Release\MFCApplication1.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\wangmingdong\VSProjects\MFCApplication1\x64\Release\MFCApplication1.lib" /MACHINE:X64 x64\Release\MFCApplication1.res
+         x64\Release\BasicExcelVC6.obj
+         x64\Release\MFCApplication1.obj
+         x64\Release\MFCApplication1Dlg.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+         All 3355 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         MFCApplication1.vcxproj -> D:\wangmingdong\VSProjects\MFCApplication1\x64\Release\MFCApplication1.exe
+     1>已完成生成项目“D:\wangmingdong\VSProjects\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:08.06
