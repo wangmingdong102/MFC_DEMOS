@@ -29,15 +29,22 @@ YEJIAN2QIDLG::YEJIAN2QIDLG(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_NIUNIU_TOOLS_ICON);//更新应用图标
 
-	CDialogEx::SetBackgroundImage(IDB_YEJIAN2QI_BG, BACKGR_BOTTOMLEFT, true);
+	CDialogEx::SetBackgroundImage(IDB_YEJIAN2QI_BG, BACKGR_TOPLEFT, true);
 	m_DlgRect.SetRect(0, 0, 0, 0);
 }
 
 void YEJIAN2QIDLG::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
-	
 
+
+	DDX_Control(pDX, IDC_COMBO101, sCombo101);
+	DDX_Control(pDX, IDC_COMBO102, sCombo102);
+	DDX_Control(pDX, IDC_EDIT_S1MAX, sEditS1MAX);
+	DDX_Control(pDX, IDC_EDIT_S1MIN, sEditS1M);
+	DDX_Control(pDX, IDC_EDIT_L11, sEditL11);
+	DDX_Control(pDX, IDC_EDIT_L12, sEditL12);
+	DDX_Control(pDX, IDC_EDIT_N11, sEditN11);
 }
 
 BEGIN_MESSAGE_MAP(YEJIAN2QIDLG, CDialogEx)
@@ -112,21 +119,49 @@ BOOL YEJIAN2QIDLG::OnInitDialog()
 	//printf("init console window\n");
 	// nn_20190728 add
 
+	CString strTemp;
+	CComboBox* comboBox = NULL;
+	//1 
+	comboBox = ((CComboBox*)GetDlgItem(IDC_COMBO101));
+	comboBox->ResetContent();//消除现有所有内容
+	strTemp.Format(_T("%d"), 150);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%d"), 185);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%d"), 240);
+	comboBox->AddString(strTemp);
+	//2
+	comboBox = ((CComboBox*)GetDlgItem(IDC_COMBO102));
+	comboBox->ResetContent();//消除现有所有内容
+	strTemp.Format(_T("%d"), 150);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%d"), 185);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%d"), 240);
+	comboBox->AddString(strTemp);
+
+	//11
+	comboBox = ((CComboBox*)GetDlgItem(IDC_COMBO211));
+	comboBox->ResetContent();//消除现有所有内容
+	strTemp.Format(_T("%d"), 150);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%d"), 185);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%d"), 240);
+	comboBox->AddString(strTemp);
+	//12
+	comboBox = ((CComboBox*)GetDlgItem(IDC_COMBO212));
+	comboBox->ResetContent();//消除现有所有内容
+	strTemp.Format(_T("%d"), 150);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%d"), 185);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%d"), 240);
+	comboBox->AddString(strTemp);
 
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
 
-void YEJIAN2QIDLG::OnSysCommand(UINT nID, LPARAM lParam)
-{
-	if ((nID & 0xFFF0) == IDM_ABOUTBOX)
-	{
-		CDialogEx::OnSysCommand(nID, lParam);
-	}
-	else
-	{
-		CDialogEx::OnSysCommand(nID, lParam);
-	}
-}
 
 // 如果向对话框添加最小化按钮，则需要下面的代码
 //  来绘制该图标。  对于使用文档/视图模型的 MFC 应用程序，
@@ -176,10 +211,7 @@ void YEJIAN2QIDLG::OnPaint()
 
 //当用户拖动最小化窗口时系统调用此函数取得光标
 //显示。
-HCURSOR YEJIAN2QIDLG::OnQueryDragIcon()
-{
-	return static_cast<HCURSOR>(m_hIcon);
-}
+
 
 
 void YEJIAN2QIDLG::repaint(UINT id, int last_Width, int now_Width, int last_Height, int now_Height)
@@ -206,14 +238,15 @@ void YEJIAN2QIDLG::repaint(UINT id, int last_Width, int now_Width, int last_Heig
 	wnd->MoveWindow(&rect);
 }
 
-
-
-
 void YEJIAN2QIDLG::OnSize(UINT nType, int cx, int cy)
 {
 	CDialogEx::OnSize(nType, cx, cy);
 	printf("OnSize cx %d %d\n", cx, cy);
 	//TRACE("OnSize cx %d %d\n", cx, cy);
+
+	if (m_DlgRect.left >= 0) {
+		return;
+	}
 
 	//printf("OnSize left %d right %d\n", m_DlgRect.left, m_DlgRect.right);
 	if (0 == m_DlgRect.left && 0 == m_DlgRect.right && 0 == m_DlgRect.top && 0 == m_DlgRect.bottom)
@@ -258,10 +291,21 @@ void YEJIAN2QIDLG::OnGetMinMaxInfo(MINMAXINFO* lpMMI)
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	printf("OnGetMinMaxInfo x:%d y:%d\n", lpMMI->ptMinTrackSize.x, lpMMI->ptMinTrackSize.y);
 
-	 lpMMI->ptMinTrackSize.x = 1490;
-	 lpMMI->ptMinTrackSize.y = 800;
-	 lpMMI->ptMaxTrackSize.x = 1920;
-	 lpMMI->ptMaxTrackSize.y = 1080;
+	int cx, cy;
+	cx = GetSystemMetrics(SM_CXSCREEN);
+	cy = GetSystemMetrics(SM_CYSCREEN);	
+	printf("OnGetMinMaxInfo cx:%d cy:%d\n", cx, cy);
+
+	if (cx >= 1570) {
+		lpMMI->ptMinTrackSize.x = 1570;
+		lpMMI->ptMinTrackSize.y = 990;
+	}
+	else {
+		lpMMI->ptMinTrackSize.x = cx;
+		lpMMI->ptMinTrackSize.y = cy;
+	}
+	lpMMI->ptMaxTrackSize.x = cx;
+	lpMMI->ptMaxTrackSize.y = cy;
 
 	CDialogEx::OnGetMinMaxInfo(lpMMI);
 }

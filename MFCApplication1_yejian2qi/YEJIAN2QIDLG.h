@@ -3,6 +3,7 @@
 //
 
 #pragma once
+#include "afxwin.h"
 
 
 // YEJIAN2QIDLG 对话框
@@ -26,9 +27,7 @@ protected:
 
 	// 生成的消息映射函数
 	virtual BOOL OnInitDialog();
-	afx_msg void OnSysCommand(UINT nID, LPARAM lParam);
 	afx_msg void OnPaint();
-	afx_msg HCURSOR OnQueryDragIcon();
 	afx_msg void OnGetMinMaxInfo(MINMAXINFO* lpMMI);
 	afx_msg void OnSize(UINT nType, int cx, int cy);
 	CRect m_DlgRect;
@@ -39,4 +38,12 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 
+public:
+	CComboBox sCombo101;
+	CComboBox sCombo102;
+	CEdit sEditS1MAX;
+	CEdit sEditS1M;
+	CEdit sEditL11;
+	CEdit sEditL12;
+	CEdit sEditN11;
 };

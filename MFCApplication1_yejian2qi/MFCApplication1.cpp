@@ -4,8 +4,9 @@
 
 #include "stdafx.h"
 #include "MFCApplication1.h"
-#include "YEJIAN2QIDLG.h"
 #include "MFCApplication1Dlg.h"
+#include "YEJIAN2QIDLG.h"
+#include "MAINDLG.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -71,8 +72,7 @@ BOOL CMFCApplication1App::InitInstance()
 	// 例如修改为公司或组织名
 	SetRegistryKey(_T("应用程序向导生成的本地应用程序"));
 
-	CMFCApplication1Dlg dlg2;
-	YEJIAN2QIDLG dlg;
+	MAINDLG dlg;
 	m_pMainWnd = &dlg;
 	INT_PTR nResponse = dlg.DoModal();
 	if (nResponse == IDOK)
