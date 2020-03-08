@@ -33,10 +33,12 @@ protected:
 	CRect m_DlgRect;
 	void repaint(UINT id, int last_Width, int now_Width, int last_Height, int now_Height);
 
-
-
-
 	DECLARE_MESSAGE_MAP()
+
+	void YEJIAN2QIDLG::dropDownMenuTypeOne(UINT comboId);
+	void YEJIAN2QIDLG::dropDownMenuTypeTwo(UINT comboId);
+	void YEJIAN2QIDLG::dropDownMenuTypeThree(UINT comboId);
+	void YEJIAN2QIDLG::dropDownMenuTypeFour(UINT comboId);
 
 public:
 	CComboBox sCombo101;
@@ -46,4 +48,8 @@ public:
 	CEdit sEditL11;
 	CEdit sEditL12;
 	CEdit sEditN11;
+
+	double sEditS1MAXValue;
+
+	afx_msg void OnBnClickedMainframe();
 };

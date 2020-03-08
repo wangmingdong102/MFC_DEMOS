@@ -41,6 +41,7 @@ void YEJIAN2QIDLG::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_COMBO101, sCombo101);
 	DDX_Control(pDX, IDC_COMBO102, sCombo102);
 	DDX_Control(pDX, IDC_EDIT_S1MAX, sEditS1MAX);
+	DDX_Text(pDX, IDC_EDIT_S1MAX, sEditS1MAXValue);
 	DDX_Control(pDX, IDC_EDIT_S1MIN, sEditS1M);
 	DDX_Control(pDX, IDC_EDIT_L11, sEditL11);
 	DDX_Control(pDX, IDC_EDIT_L12, sEditL12);
@@ -55,6 +56,7 @@ BEGIN_MESSAGE_MAP(YEJIAN2QIDLG, CDialogEx)
 
 	ON_WM_GETMINMAXINFO()
 	ON_WM_SIZE()
+	ON_BN_CLICKED(IDR_MAINFRAME, &YEJIAN2QIDLG::OnBnClickedMainframe)
 END_MESSAGE_MAP()
 
 // nn_20190728 add
@@ -76,6 +78,62 @@ void InitConsoleWindowYEJIAN2QI()
 // nn_20190728 add
 
 // YEJIAN2QIDLG 消息处理程序
+
+void YEJIAN2QIDLG::dropDownMenuTypeOne(UINT comboId) {
+	CString strTemp;
+	CComboBox* comboBox = NULL;
+
+	comboBox = ((CComboBox*)GetDlgItem(comboId));
+	comboBox->ResetContent();//消除现有所有内容
+	strTemp.Format(_T("%3d"), 150);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%3d"), 185);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%3d"), 240);
+	comboBox->AddString(strTemp);
+}
+
+void YEJIAN2QIDLG::dropDownMenuTypeTwo(UINT comboId) {
+	CString strTemp;
+	CComboBox* comboBox = NULL;
+
+	comboBox = ((CComboBox*)GetDlgItem(comboId));
+	comboBox->ResetContent();//消除现有所有内容
+	strTemp.Format(_T("%3d"), 50);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%3d"), 70);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%3d"), 95);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%3d"), 120);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%3d"), 150);
+	comboBox->AddString(strTemp);
+}
+void YEJIAN2QIDLG::dropDownMenuTypeThree(UINT comboId) {
+	CString strTemp;
+	CComboBox* comboBox = NULL;
+
+	comboBox = ((CComboBox*)GetDlgItem(comboId));
+	comboBox->ResetContent();//消除现有所有内容
+	strTemp.Format(_T("%3d"), 50);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%3d"), 70);
+	comboBox->AddString(strTemp);
+	strTemp.Format(_T("%3d"), 95);
+	comboBox->AddString(strTemp);
+}
+void YEJIAN2QIDLG::dropDownMenuTypeFour(UINT comboId) {
+	CString strTemp;
+	CComboBox* comboBox = NULL;
+
+	comboBox = ((CComboBox*)GetDlgItem(comboId));
+	comboBox->ResetContent();//消除现有所有内容
+	strTemp = "Yyn";
+	comboBox->AddString(strTemp);
+	strTemp = "Dyn";
+	comboBox->AddString(strTemp);
+}
 
 BOOL YEJIAN2QIDLG::OnInitDialog()
 {
@@ -119,45 +177,32 @@ BOOL YEJIAN2QIDLG::OnInitDialog()
 	//printf("init console window\n");
 	// nn_20190728 add
 
-	CString strTemp;
-	CComboBox* comboBox = NULL;
-	//1 
-	comboBox = ((CComboBox*)GetDlgItem(IDC_COMBO101));
-	comboBox->ResetContent();//消除现有所有内容
-	strTemp.Format(_T("%d"), 150);
-	comboBox->AddString(strTemp);
-	strTemp.Format(_T("%d"), 185);
-	comboBox->AddString(strTemp);
-	strTemp.Format(_T("%d"), 240);
-	comboBox->AddString(strTemp);
-	//2
-	comboBox = ((CComboBox*)GetDlgItem(IDC_COMBO102));
-	comboBox->ResetContent();//消除现有所有内容
-	strTemp.Format(_T("%d"), 150);
-	comboBox->AddString(strTemp);
-	strTemp.Format(_T("%d"), 185);
-	comboBox->AddString(strTemp);
-	strTemp.Format(_T("%d"), 240);
-	comboBox->AddString(strTemp);
+	dropDownMenuTypeOne(IDC_COMBO101);//1 
+	dropDownMenuTypeOne(IDC_COMBO102);//2
+	dropDownMenuTypeOne(IDC_COMBO211);//11
+	dropDownMenuTypeOne(IDC_COMBO212);//12
 
-	//11
-	comboBox = ((CComboBox*)GetDlgItem(IDC_COMBO211));
-	comboBox->ResetContent();//消除现有所有内容
-	strTemp.Format(_T("%d"), 150);
-	comboBox->AddString(strTemp);
-	strTemp.Format(_T("%d"), 185);
-	comboBox->AddString(strTemp);
-	strTemp.Format(_T("%d"), 240);
-	comboBox->AddString(strTemp);
-	//12
-	comboBox = ((CComboBox*)GetDlgItem(IDC_COMBO212));
-	comboBox->ResetContent();//消除现有所有内容
-	strTemp.Format(_T("%d"), 150);
-	comboBox->AddString(strTemp);
-	strTemp.Format(_T("%d"), 185);
-	comboBox->AddString(strTemp);
-	strTemp.Format(_T("%d"), 240);
-	comboBox->AddString(strTemp);
+	dropDownMenuTypeTwo(IDC_COMBO103);//3 
+	dropDownMenuTypeTwo(IDC_COMBO104);//4
+	dropDownMenuTypeTwo(IDC_COMBO213);//13
+	dropDownMenuTypeTwo(IDC_COMBO214);//14
+
+	dropDownMenuTypeTwo(IDC_COMBO105);//5
+	dropDownMenuTypeTwo(IDC_COMBO106);//6
+	dropDownMenuTypeTwo(IDC_COMBO215);//15
+	dropDownMenuTypeTwo(IDC_COMBO216);//16
+
+	dropDownMenuTypeThree(IDC_COMBO107);//7
+	dropDownMenuTypeThree(IDC_COMBO108);//8
+	dropDownMenuTypeThree(IDC_COMBO109);//9
+	dropDownMenuTypeThree(IDC_COMBO110);//10
+	dropDownMenuTypeThree(IDC_COMBO217);//17
+	dropDownMenuTypeThree(IDC_COMBO218);//18
+	dropDownMenuTypeThree(IDC_COMBO219);//19
+	dropDownMenuTypeThree(IDC_COMBO220);//20
+
+	dropDownMenuTypeFour(IDC_COMBO111);//11
+	dropDownMenuTypeFour(IDC_COMBO221);//21
 
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
@@ -310,3 +355,20 @@ void YEJIAN2QIDLG::OnGetMinMaxInfo(MINMAXINFO* lpMMI)
 	CDialogEx::OnGetMinMaxInfo(lpMMI);
 }
 
+
+
+void YEJIAN2QIDLG::OnBnClickedMainframe()
+{
+	// TODO: 在此添加控件通知处理程序代码
+
+	UpdateData(true);
+
+	CComboBox* comboBox = ((CComboBox*)GetDlgItem(IDC_COMBO101));
+	CString cstr;
+	comboBox->GetWindowTextW(cstr);
+	printf("OnBnClickedMainframe IDC_COMBO101:%S\n", cstr);
+
+	printf("OnBnClickedMainframe IDC_EDIT_S1MAX:%f\n", sEditS1MAXValue);
+	
+
+}
