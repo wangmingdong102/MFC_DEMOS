@@ -157,7 +157,7 @@ void CMFCApplication1Dlg::repaint(UINT id, int last_Width, int now_Width, int la
 void CMFCApplication1Dlg::OnSize(UINT nType, int cx, int cy)
 {
 	CDialogEx::OnSize(nType, cx, cy);
-	printf("OnSize cx %d %d\n", cx, cy);
+	//printf("OnSize cx %d %d\n", cx, cy);
 	//TRACE("OnSize cx %d %d\n", cx, cy);
 
 	//printf("OnSize left %d right %d\n", m_DlgRect.left, m_DlgRect.right);

@@ -173,10 +173,10 @@ BOOL MAINDLG::OnInitDialog()
 	//设置默认的选项卡 
 	sMainTab.SetCurSel(0);
 
-	printf("MAINDLG OnInitDialog tab w %d h %d\n", rs.Width(), rs.Height());
+	//printf("MAINDLG OnInitDialog tab w %d h %d\n", rs.Width(), rs.Height());
 
 	GetClientRect(&rs);
-	printf("MAINDLG OnInitDialog this w %d h %d\n", rs.Width(), rs.Height());
+	//printf("MAINDLG OnInitDialog this w %d h %d\n", rs.Width(), rs.Height());
 //	if (rs.Width() < rs.Width() && rs.Width() > 0) {
 //		OnSize(SIZE_RESTORED, rs.Width(), rs.Height());
 //	}
@@ -238,9 +238,9 @@ void MAINDLG::repaint(UINT id, int last_Width, int now_Width, int last_Height, i
 
 void MAINDLG::OnSize(UINT nType, int cx, int cy)
 {
-	printf("MAINDLG OnSize 1 cx %d %d\n", cx, cy);
+	//printf("MAINDLG OnSize 1 cx %d %d\n", cx, cy);
 	CDialogEx::OnSize(nType, cx, cy);
-	printf("MAINDLG OnSize 2 cx %d %d\n", cx, cy);
+	//printf("MAINDLG OnSize 2 cx %d %d\n", cx, cy);
 	//TRACE("OnSize cx %d %d\n", cx, cy);
 
 	//printf("OnSize left %d right %d\n", m_DlgRect.left, m_DlgRect.right);
@@ -280,12 +280,12 @@ void MAINDLG::OnSize(UINT nType, int cx, int cy)
 void MAINDLG::OnGetMinMaxInfo(MINMAXINFO* lpMMI)
 {
 	// TODO: ?????????????/??????
-	printf("MAINDLG OnGetMinMaxInfo x:%d y:%d\n", lpMMI->ptMinTrackSize.x, lpMMI->ptMinTrackSize.y);
+	//printf("MAINDLG OnGetMinMaxInfo x:%d y:%d\n", lpMMI->ptMinTrackSize.x, lpMMI->ptMinTrackSize.y);
 
 	int cx, cy;
 	cx = GetSystemMetrics(SM_CXSCREEN);
 	cy = GetSystemMetrics(SM_CYSCREEN);	
-	printf("MAINDLG OnGetMinMaxInfo cx:%d cy:%d\n", cx, cy);
+	//printf("MAINDLG OnGetMinMaxInfo cx:%d cy:%d\n", cx, cy);
 
 	if (cx >= 1920) {
 		lpMMI->ptMinTrackSize.x = 1920;
